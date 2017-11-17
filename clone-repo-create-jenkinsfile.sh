@@ -1,3 +1,11 @@
+#!/bin/bash
+
+mkdir -p GitHub
+cd GitHub
+
+git clone https://github.com/trongnguyen10010/simple-node-js-react-npm-app
+
+cd simple-node-js-react-npm-app/
 echo "pipeline {
     agent {
         docker {
